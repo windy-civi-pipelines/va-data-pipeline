@@ -1,11 +1,8 @@
-# Example caller workflow for text extraction
-# Copy this to your state data repo as .github/workflows/extract-text.yml
-
 name: Text Extraction from Bills
 
 on:
-  schedule:
-    - cron: "0 8 * * *" # Daily at 8 AM UTC (~3 AM ET, ~12 AM PT)
+  # schedule:
+  #   - cron: "0 8 * * *" # Daily at 8 AM UTC (~3 AM ET, ~12 AM PT)
   workflow_dispatch:
 
 jobs:
